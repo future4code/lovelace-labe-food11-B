@@ -1,11 +1,12 @@
 import React from 'react';
 
-function App() {
+const App = () => {
   return (
     <div>
      LabeFood
     </div>
   );
+
 }
 
 export default App;
