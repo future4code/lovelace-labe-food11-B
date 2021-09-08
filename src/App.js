@@ -1,13 +1,19 @@
-import React from 'react';
+import React from 'react'
+import CarPage from './pages/CarPage/CarPage'
 
 
 
-function App() {
+const App = () => {
   return (
-    <div>
-     <h1>LabeFood</h1>
-    </div>
-  );
-}
 
-export default App;
+    <div>
+      <CarPage/>
+     
+    </div>
+    )
+  }
+
+  export default App
+
+
+
