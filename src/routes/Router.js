@@ -1,5 +1,5 @@
 import React from 'react'
-import CarPage from '../pages/CarPage/CarPage'
+import CarPage from '../pages/CarPage/CarPage';
 import HomePage from '../pages/Home/HomePage'
 
 export default function Router() {
