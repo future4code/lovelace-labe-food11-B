@@ -1,9 +1,17 @@
-import React from 'react';
+import React from 'react'
+import CarPage from './pages/CarPage/CarPage'
+
+
 
 const App = () => {
   return (
-  <div>Home</div>
-  )
-}
 
-export default App;
+    <div>
+      <CarPage/>
+     
+    </div>
+    )
+  }
+
+  export default App
+
