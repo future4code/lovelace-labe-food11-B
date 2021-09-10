@@ -1,5 +1,7 @@
+
 import React from 'react'
-import CarPage from './pages/CarPage/CarPage'
+
+import Router from './routes/Router'
 
 
 
@@ -7,7 +9,7 @@ const App = () => {
   return (
 
     <div>
-      <CarPage/>
+    <Router/>
      
     </div>
     )
