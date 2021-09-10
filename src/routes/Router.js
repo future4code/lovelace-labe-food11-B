@@ -1,6 +1,9 @@
 import React from 'react'
+
 import { Route, Switch, BrowserRouter } from "react-router-dom"
 import CarPage from '../pages/CarPage/CarPage'
+
+
 import HomePage from '../pages/Home/HomePage'
 
 
