@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import useProtectedPage from "../../hooks/useProtectedPage";
 
-
-const HomePage = () => {
-    return (
-       <h1>HomePage</h1>
-    )
+export default function HomePage() {
+  useProtectedPage();
+  return (
+    <div>
+      <h1>HomePage</h1>
+    </div>
+  );
 }
-export default 
