@@ -1,9 +1,12 @@
+
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import HomePage from "../pages/Home/HomePage";
 import LoginPage from "../pages/LoginPage/LoginPage";
 import SignUpPage from "../pages/SignUpPage/SignUpPage";
 import RestaurantsList from "../pages/RestaurantsList/RestaurantsList";
+
+
 
 export default function Router() {
   return (
@@ -21,7 +24,9 @@ export default function Router() {
         <Route exact path={"/"}>
           <HomePage />
         </Route>
+
       </Switch>
     </BrowserRouter>
   );
 }
+
