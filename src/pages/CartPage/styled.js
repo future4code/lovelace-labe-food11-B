@@ -17,8 +17,6 @@ export const Button = styled.button`
 `
 
 export const EnderecoEntrega = styled.div`
-
-
 `
 export const EnderecoCliente = styled.div`
  width: 328px;
@@ -32,7 +30,6 @@ export const EnderecoCliente = styled.div`
   line-height: normal;
   letter-spacing: -0.39px;
   color: var(--black);
-
 `
 export const Rectangle = styled.div`
 width: 360px;
@@ -40,7 +37,6 @@ width: 360px;
   margin: 1px 0 16px;
   padding: 16px;
   background-color: #eee;
-
 `
 
 export const Subtotal = styled.span `
@@ -59,7 +55,6 @@ export const Subtotal = styled.span `
 
 export const SomaCarrinho = styled.div`
 color: #5cb646;
-
 `
 export const ValorFrete = styled.span`
  width: 104px;
@@ -78,5 +73,4 @@ export const ValorFrete = styled.span`
 
 export const ContainerSubtotal = styled.div`
 display: flex;
-
 `

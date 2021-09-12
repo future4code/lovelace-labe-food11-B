@@ -1,9 +1,15 @@
-export function goToHome(history) {
+export const goToHome = (history) => {
   history.push("/");
-}
-export function goToLogin(history) {
+};
+
+export const goToLogin = (history) => {
   history.push("/login");
-}
-export function goToRestaurants(history) {
-  history.push("/restaurant");
-}
+};
+
+export const goToSignUp = (history) => {
+  history.push("/signup");
+};
+
+export const goToRestaurantsList = (history) => {
+  history.push("/restaurants");
+};

@@ -1,21 +1,29 @@
 import React from "react";
-import HomeIcon from '@material-ui/icons/Home';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import PermIdentityIcon from '@material-ui/icons/PermIdentity';
-import { Container1 } from "./styled";
+import { useHistory } from "react-router";
+import ToolBar from "@material-ui/core/ToolBar";
+import Button from "@material-ui/core/Button";
+import HomeIcon from "@material-ui/icons/Home";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import { goToHome } from "../../routes/coordinator";
 
-
-const Footer = () => {
-    return(
-
-<Container1>
-    <HomeIcon></HomeIcon>
-    <ShoppingCartIcon></ShoppingCartIcon>
-    <PermIdentityIcon></PermIdentityIcon>
-</Container1>
-
-    )
-
+export default function Footer() {
+  const history = useHistory();
+  return (
+    <ToolBar>
+      <Button
+        onClick={() => {
+          goToHome(history);
+        }}
+      >
+        <HomeIcon />
+      </Button>
+      <Button>
+        <ShoppingCartIcon />
+      </Button>
+      <Button>
+        <AccountCircleIcon />
+      </Button>
+    </ToolBar>
+  );
 }
-
-export default Footer
