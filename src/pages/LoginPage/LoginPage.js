@@ -5,6 +5,7 @@ import LoginForm from "./LoginForm"
 import { useHistory } from 'react-router-dom'
 // import {goToSignUp} from "../../routes/coordinator"
 import useUnprotectedPage from '../../hooks/useUnprotectedPage';
+import { neutralColor } from "../../constants/colors"
 
 export default function LoginPage (){
     useUnprotectedPage()
@@ -18,7 +19,7 @@ export default function LoginPage (){
                     type={"submit"}
                     fullWidth
                     variant={"text"}
-                    color={"primary"}
+                    color={"neutralColor "}
                 >
                     Não possui conta? Cadastre-se
                     </Button>
